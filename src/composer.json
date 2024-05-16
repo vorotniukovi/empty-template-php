@@ -1,0 +1,23 @@
+{
+    "name": "vorlis/service",
+    "description": "Service to connect API WG",
+    "autoload": {
+        "psr-4": {
+            "Vorlis\\Service\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vorotnikov Igor"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^7.0",
+        "guzzlehttp/guzzle": "^7.0"
+
+    },
+    "require": {
+        "monolog/monolog": "^3.6",
+        "phpunit/phpunit": "^10"
+    }
+}
